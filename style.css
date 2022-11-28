@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    background-color: black;
+    height: 40px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: o;
+}
+
+.nav{
+    line-height: 40px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+}
+
+#rides{
+    background-image: url('./imeges/rides.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 690px;
+    padding-top: 40px;
+    width: 100%;
+}
+
+#accessories{
+    background-image: url('./imeges/accessories.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 690px;
+    padding-top: 40px;
+    width: 100%;
+}
+
+#trip{
+    background-image: url('./imeges/trip.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 690px;
+    padding-top: 40px;
+    width: 100%;
+}
+
+#riverrides{
+    background-image: url('./imeges/RiverRides.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 690px;
+    padding-top: 40px;
+    width: 100%;
+}
+
+#hills{
+    background-image: url('./imeges/hills.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 690px;
+    padding-top: 40px;
+    width: 100%;
+}
+
+#top
+{
+    background-color: black;
+    border-radius: 10px;
+    bottom: 20px;
+    text-align: center;
+    right: 20px;
+    position: fixed;
+    width: 50px;
+}
+
+@media only screen and (max-width: 920px) 
+{
+    .nav
+    {
+       background-color: orangered;
+    }
+
+    .nav a
+    {
+       padding-bottom: 10px;
+       padding-top: 10px;
+       padding-right: 50px;
+       padding-left: 50px;
+    }
+}
+@media only screen and (max-width: 800px) 
+{
+   .nav
+   {
+      background-color: teal;
+   } 
+}
